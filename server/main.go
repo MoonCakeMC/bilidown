@@ -2,14 +2,10 @@ package main
 
 import (
 	"database/sql"
-	"errors"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
-	"os/exec"
-	"runtime"
-	"time"
 
 	"bilidown/router"
 	"bilidown/util"
