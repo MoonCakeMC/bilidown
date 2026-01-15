@@ -21,9 +21,7 @@ const (
 
 func main() {
 	checkFFmpeg()
-}
-
-func onReady() {
+	
 	// 初始化数据表
 	mustInitTables()
 	// 配置和启动 HTTP 服务器
