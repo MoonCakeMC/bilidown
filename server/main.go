@@ -14,7 +14,6 @@ import (
 	"bilidown/router"
 	"bilidown/util"
 
-	"github.com/getlantern/systray"
 	_ "modernc.org/sqlite"
 )
 
@@ -26,8 +25,6 @@ const (
 
 func main() {
 	checkFFmpeg()
-	// 启动托盘程序
-	systray.Run(onReady, nil)
 }
 
 func onReady() {
