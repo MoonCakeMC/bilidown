@@ -1,8 +1,12 @@
-# Bilidown
+# Bilidown (Modified)
 
 [![GitHub Release](https://img.shields.io/github/v/release/iuroc/bilidown)](https://github.com/iuroc/bilidown/releases)
 
 哔哩哔哩视频解析下载工具，支持 8K 视频、Hi-Res 音频、杜比视界下载、批量解析，可扫码登录，常驻托盘。
+
+** 这是由 MoonCake__MC 进行的修改版，将常驻托盘功能、自动打开浏览器功能移除，以便于在无 GUI 的服务器上运行 **
+
+** 鉴于 MoonCake__MC 个人需求、与原版不冲突等考虑，将项目端口修改为25008，后文不再进行修改 **
 
 ## 支持解析的链接类型
 
